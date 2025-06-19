@@ -84,20 +84,21 @@ header nav.overlay {
 header nav.overlay a {
   width: 30%;
   align-self: center;
+  font-size: 35px;
 }
 
 header nav.overlay a,
 header nav.overlay a button {
-  font-size: 45px;
-  margin: 50px;
+  margin: 20px;
   padding: 0;
 }
 
 header nav.overlay a button {
+  font-size: 40px;
   width: 400px;
   height: 100px;
   position: relative;
-  left: -100px;
+  left: -80px;
 }
 
 header nav.overlay a.closebtn {
@@ -518,7 +519,7 @@ footer .copyright {
   }
 
   .normal-h1 {
-    font-size: 85px;
+    font-size: 75px;
     text-align: center;
     left: 0;
   }
@@ -531,14 +532,14 @@ footer .copyright {
     width: 100%;
     top: 700px;
     left: 2.5%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--Grayish-Blue);
   }
   #intro .big-h1 {
     position: relative;
     left: 6%;
     top: 700px;
-    font-size: 96px;
+    font-size: 86px;
     width: 800px;
   }
   #intro button {
@@ -572,7 +573,7 @@ footer .copyright {
 
   #about p {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--Grayish-Blue);
     text-align: center;
   }
@@ -610,7 +611,7 @@ footer .copyright {
   }
 
   #about h2 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   #about .container p {
@@ -635,19 +636,19 @@ footer .copyright {
   .containers .small {
     position: relative;
     top: 10px;
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .containers h3 {
     position: relative;
     top: 10px;
-    font-size: 56.125px;
+    font-size: 46.125px;
   }
 
   .containers p {
     position: relative;
     top: 10px;
-    font-size: 42px;
+    font-size: 32px;
   }
   footer {
     text-align: center;
@@ -669,7 +670,7 @@ footer .copyright {
     top: 265px;
   }
   footer nav a p {
-    font-size: 50px;
+    font-size: 40px;
   }
   footer .img {
     width: 50%;
@@ -703,25 +704,16 @@ footer .copyright {
     top: 300px;
     width: 500px;
     height: 130px;
-    font-size: 50px;
+    font-size: 40px;
   }
   footer .copyright {
     left: 0;
     top: 300px;
-    font-size: 47px;
+    font-size: 37px;
   }
 }
 
 @media (max-width: 425.5px) {
-  #intro .big-h1 {
-    font-size: 55px;
-    font-weight: 400;
-    width: 450px;
-    /* position: relative; */
-    /* top: 50px; */
-    /* left: 100px; */
-  }
-
   header #first-img {
     width: 260px;
     height: 51px;
@@ -731,9 +723,13 @@ footer .copyright {
     left: 100px;
   }
 
+  header nav.overlay {
+    overflow: hidden;
+  }
+
   header nav.overlay a {
-    font-size: 40px;
-    margin: 15px;
+    font-size: 30px;
+    margin: 20px;
   }
 
   header nav.overlay a button {
@@ -745,20 +741,29 @@ footer .copyright {
   }
 
   #intro {
-    font-size: medium;
+    font-size: 11px;
     height: 1250px;
   }
 
+  #intro .big-h1 {
+    font-size: 45px;
+    font-weight: 400;
+    width: 450px;
+    /* position: relative; */
+    /* top: 50px; */
+    /* left: 100px; */
+  }
+
   #intro #bg-intro-mobile {
-    height: 450px;
-    top: -800px;
+    height: 500px;
+    top: -640px;
   }
 
   #intro button {
     top: 450px;
     width: 300px;
     height: 56.25px;
-    font-size: 26px;
+    font-size: 16px;
   }
 
   #intro .big-h1 {
@@ -772,19 +777,19 @@ footer .copyright {
   #intro img:nth-of-type(3) {
     width: 110%;
     height: 700px;
-    top: -1457.5px;
+    top: -1285px;
     left: -25px;
   }
 
   #articles {
-    height: 4600px;
+    height: 3425px;
   }
 
   .containers img {
     height: 300px;
   }
   .containers {
-    height: 1000px;
+    height: 750px;
   }
 
   footer .img-container a img {
@@ -803,7 +808,7 @@ footer .copyright {
 
 @media (max-width: 375px) {
   * {
-    font-size: 16px;
+    font-size: 11px;
   }
 
   header {
